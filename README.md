@@ -1,7 +1,9 @@
+# This project was the most intresting and challenging rpoject I have worked on so far. From developing a basic GA algorithm in C to implementing it on PyTorch has given me a perfect hands-on experience to learn and interpret complex tasks. 
+
 # 🧬 Evolving Neural Network Crossover Operators using Genetic Programming
 
 > ⚠️ **NOTE: This repository is a Work In Progress.**  
-> The codebase is currently under **active refactoring** and may contain inline debug logic, hardcoded parameters, and loosely structured files.  
+> The codebase is currently under **refactoring**, since the goal of the project was to learn hands on and the implementation has been achieved, work on refactoring is a task I intend to do at some point to make the code more accessible. There is no timeline decided yet,  
 > Initial experiments have been conducted **only on the Wine dataset**. Support for additional datasets (e.g., CIFAR-10, Higgs, etc.) will be added in upcoming commits.
 
 ---
@@ -63,4 +65,23 @@ This project is a **from-scratch implementation** of a research paper on *GP-evo
 
 ---
 
-## 📁 Structure
+
+## 📁 Repository Structure
+
+```bash
+.
+├── Reusable_GECO/         # ✅ Final implementation of Experiment 2 (GA w/o crossover vs GA w/ GP crossover)
+│   ├── GA_without_crossover.py   # GA implementation
+│   ├── GP_for_RGECO.py           # GP implementation evolving crossover operators
+│   └── GA_with_GP_crossover.py   # End-to-end execution script
+│
+├── Datasets/              # 🧰 Dataset utilities (Wine, others in progress)
+│
+├── DEAP/                  # 🧪 Initial exploratory work and learning experiments with the DEAP library
+│
+├── Refactored/            # 🔨 In-progress refactor of the entire codebase into cleaner modules
+│   └── (To be finalized)
+│
+├── README.md              # 📘 You're here
+└── Research Paper.pdf     # 📄 Reference research paper
+```
