@@ -1,4 +1,4 @@
-# This project was the most intresting and challenging rpoject I have worked on so far. From developing a basic GA algorithm in C to implementing it on PyTorch has given me a perfect hands-on experience to learn and interpret complex tasks. 
+## This project was the most intresting and challenging project I have worked on so far. From developing a basic GA algorithm in C to implementing it on PyTorch has given me a perfect hands-on experience to learn and interpret complex tasks. 
 
 # 🧬 Evolving Neural Network Crossover Operators using Genetic Programming
 
