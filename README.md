@@ -1,6 +1,12 @@
 # 🧬 Evolving Neural Network Crossover Operators using Genetic Programming
 
-This project is a **from-scratch implementation** of the research paper on *GP-evolved crossover operators for Genetic Algorithms optimizing Neural Network weights*. It explores how **Genetic Programming (GP)** can evolve **custom crossover operators** to enhance **Genetic Algorithms (GA)** for training neural networks — combining deep learning and evolutionary computation.
+> ⚠️ **NOTE: This repository is a Work In Progress.**  
+> The codebase is currently under **active refactoring** and may contain inline debug logic, hardcoded parameters, and loosely structured files.  
+> Initial experiments have been conducted **only on the Wine dataset**. Support for additional datasets (e.g., CIFAR-10, Higgs, etc.) will be added in upcoming commits.
+
+---
+
+This project is a **from-scratch implementation** of a research paper on *GP-evolved crossover operators for Genetic Algorithms optimizing Neural Network weights*. It explores how **Genetic Programming (GP)** can evolve **custom crossover operators** to enhance **Genetic Algorithms (GA)** for training neural networks — combining deep learning and evolutionary computation.
 
 > ⚠️ This repository is not a reproduction, but an **independent re-implementation and analysis** of the methodology from the referenced research.
 
@@ -14,7 +20,7 @@ This project is a **from-scratch implementation** of the research paper on *GP-e
 - ✅ Implemented with the powerful [`DEAP`](https://github.com/DEAP/deap) library
 - ✅ Neural networks built and accelerated using **PyTorch + CUDA**
 - ✅ Manual **bloat control**, crossover validation, and evolutionary metrics tracking
-- ✅ Experiment 2 replicated: **GA w/o crossover vs GA w/ evolved crossover**
+- ✅ Experiment 2 replicated: **GA w/o crossover vs GA w/ evolved crossover (on Wine dataset)**
 
 ---
 
@@ -50,12 +56,11 @@ This project is a **from-scratch implementation** of the research paper on *GP-e
 
 ## 📊 Experiments Replicated
 
-- **Experiment 2** from the paper:
+- ✅ **Experiment 2** from the paper:
   - GA without crossover
   - GA with GP-evolved reusable crossover
-  - Results compared over multiple seeds and datasets (e.g., Wine)
+  - Results compared on **Wine dataset** *(more datasets coming soon)*
 
 ---
 
 ## 📁 Structure
-
