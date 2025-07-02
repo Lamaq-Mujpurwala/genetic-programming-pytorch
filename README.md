@@ -85,3 +85,16 @@ This project is a **from-scratch implementation** of a research paper on *GP-evo
 ├── README.md              # 📘 You're here
 └── Research Paper.pdf     # 📄 Reference research paper
 ```
+
+
+---
+
+## 🙌 Let's Connect
+
+This project was built out of deep curiosity, experimentation, and a love for learning.  
+If you’re interested in evolutionary computing, neural networks, or just want to say hi — I’d love to connect!
+
+💡 **Open to suggestions, improvements, and collaborations.**  
+Feel free to open an issue or reach out directly.
+
+📨 Connect with me on [LinkedIn](https://www.linkedin.com/in/lamaq-mujpurwala-713b7a32b/)
